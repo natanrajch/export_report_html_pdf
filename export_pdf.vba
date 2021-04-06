@@ -16,7 +16,7 @@ End With
 
 'Acá abajo actualizar dirección y nombre del archivo
 rReporte.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
-    "C:\ReporteMediosElevación.pdf", Quality:= _
+    "C:\YOURFILENAME.pdf", Quality:= _
     xlQualityStandard, IncludeDocProperties:=True, IgnorePrintAreas:=False, _
     OpenAfterPublish:=True
 
